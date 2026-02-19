@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Foro Estudiantil</title>
+
+    <!-- Estilos en modo oscuro -->
+    <style>
+        body {
+            background-color: #0f172a;
+            color: #e2e8f0;
+            font-family: Arial, sans-serif;
+            margin: 0;
+        }
+
+        header {
+            background-color: #1e293b;
+            padding: 20px;
+            text-align: center;
+        }
+
+        nav a {
+            color: #38bdf8;
+            text-decoration: none;
+            margin: 0 10px;
+            font-weight: bold;
+        }
+
+        section {
+            width: 80%;
+            margin: 30px auto;
+            padding: 20px;
+            background-color: #1e293b;
+            border-radius: 10px;
+        }
+
+        article {
+            background-color: #334155;
+            padding: 15px;
+            margin-bottom: 15px;
+            border-radius: 8px;
+        }
+
+        input {
+            width: 95%;
+            padding: 8px;
+            border-radius: 5px;
+            border: none;
+            margin-top: 5px;
+        }
+
+        button {
+            background-color: #38bdf8;
+            color: black;
+            padding: 8px 15px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            margin-top: 10px;
+        }
+
+        footer {
+            background-color: #1e293b;
+            text-align: center;
+            padding: 15px;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <!-- Encabezado principal del sitio -->
+    <header>
+        <h1>Foro Estudiantil</h1>
+
+        <!-- Navegación interna -->
+        <nav>
+            <a href="#login">Iniciar Sesión</a> |
+            <a href="#registro">Registrarse</a> |
+            <a href="#chat">Chat</a>
+        </nav>
+    </header>
+
+    <!-- Sección de publicaciones -->
+    <section>
+        <h2>Publicaciones Recientes</h2>
+
+        <!-- Publicación individual -->
+        <article>
+            <h3>¿Cómo estudiar para matemáticas?</h3>
+            <p><strong>Publicado por:</strong> Juan Pérez</p>
+            <p>¿Alguien tiene consejos para el parcial?</p>
+        </article>
+
+        <article>
+            <h3>Grupo de estudio programación</h3>
+                <p><strong>Publicado por:</strong> Ana Gómez</p>
+            <p>Busco compañeros para practicar Java.</p>
+        </article>
+    </section>
+
+    <!-- Sección de inicio de sesión -->
+    <section id="login">
+        <h2>Iniciar Sesión</h2>
+        <form>
+            <label>Correo:</label><br>
+            <input type="email" required><br><br>
+
+            <label>Contraseña:</label><br>
+            <input type="password" required><br>
+
+            <button type="submit">Ingresar</button>
+        </form>
+    </section>
+
+    <!-- Sección de registro -->
+    <section id="registro">
+        <h2>Registro</h2>
+        <form>
+            <label>Nombre completo:</label><br>
+            <input type="text" required><br><br>
+
+            <label>Correo:</label><br>
+            <input type="email" required><br><br>
+
+            <label>Contraseña:</label><br>
+            <input type="password" required><br>
+
+            <button type="submit">Registrarse</button>
+        </form>
+    </section>
+
+    <!-- Sección de chat -->
+    <section id="chat">
+        <h2>Chat General Estudiantil</h2>
+
+        <div>
+            <p><strong>Juan:</strong> Hola, ¿alguien entiende el tema de integrales?</p>
+            <p><strong>Ana:</strong> Sí, yo puedo ayudarte.</p>
+            <p><strong>Carlos:</strong> También necesito ayuda.</p>
+        </div>
+
+        <form>
+            <label>Escribe tu mensaje:</label><br>
+            <input type="text" required>
+            <button type="submit">Enviar</button>
+        </form>
+    </section>
+
+    <!-- Pie de página con imagen tipo easter egg -->
+    <footer>
+        <p>
+            &copy;
+            <img src="donke.png" alt="Easter Egg" width="20">
+            2026 Foro Estudiantil
+        </p>
+    </footer>
+
+</body>
+</html>
+
+
+<!--
+================================
+TABLA EXPLICATIVA DE ETIQUETAS
+================================
+
+| Etiqueta        | Función |
+|-----------------|---------|
+| <!DOCTYPE html> | Indica que el documento usa HTML5 |
+| <html>          | Contenedor principal de toda la página |
+| <head>          | Contiene metadatos y configuraciones |
+| <meta>          | Define configuración como codificación |
+| <title>         | Título que aparece en la pestaña del navegador |
+| <style>         | Permite escribir CSS dentro del documento |
+| <body>          | Contiene todo el contenido visible |
+| <header>        | Encabezado principal del sitio |
+| <nav>           | Sección de navegación |
+| <section>       | Agrupa contenido relacionado |
+| <article>       | Contenido independiente (publicación) |
+| <h1-h3>         | Encabezados jerárquicos |
+| <p>             | Párrafo de texto |
+| <strong>        | Texto en negrita con importancia semántica |
+| <form>          | Formulario para enviar datos |
+| <label>         | Texto descriptivo para un input |
+| <input>         | Campo para ingresar datos |
+| <button>        | Botón interactivo |
+| <div>           | Contenedor genérico |
+| <footer>        | Pie de página del sitio |
+| <img>           | Muestra una imagen |
+| <br>            | Salto de línea |
+-->
