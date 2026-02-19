@@ -185,7 +185,6 @@ LevelTilemap:: INCBIN "level.tilemap"
 
 ; ------------------------------------------------------------------------------
 ; `binary data LevelData`
-;
 ; This contains the data that detemines how each tile in the level acts in terms
 ; of gameplay.
 ;
